@@ -491,3 +491,12 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: underline;
 }
 
+@font-face {
+  font-family: NotoSansReg;
+
+  src: url("../public/NotoSans-Regular.ttf");
+}
+
+* {
+  font-family: "NotoSansReg", sans-serif;
+}
