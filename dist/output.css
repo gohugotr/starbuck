@@ -476,14 +476,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .my-6 {
@@ -491,27 +491,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .mt-2 {
@@ -538,26 +525,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-2\/4 {
-  height: 50%;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -568,12 +535,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-fit {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
 }
 
 .flex-none {
@@ -596,20 +557,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-solid {
@@ -619,16 +576,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -641,104 +588,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(212 233 226 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\/\)\] {
-  background-image: url(/);
-}
-
-.bg-\[url\(publ\)\] {
-  background-image: url(publ);
-}
-
-.bg-\[url\(\"\"\)\] {
-  background-image: url("");
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'public\/i\'\)\] {
-  background-image: url('./public/i');
-}
-
-.bg-\[url\(\'public\/ima\'\)\] {
-  background-image: url('./public/ima');
-}
-
-.bg-\[url\(\'public\/image\'\)\] {
-  background-image: url('./public/image');
-}
-
-.bg-\[url\(\'public\/images\'\)\] {
-  background-image: url('./public/images');
-}
-
-.bg-\[url\(\'public\/images\/1\.webp\'\)\] {
-  background-image: url('./public/images/1.webp');
-}
-
-.bg-\[url\(\'\/public\/images\/1\.webp\'\)\] {
-  background-image: url('/./public/images/1.webp');
-}
-
-.bg-\[url\(\'\.\/public\/images\/1\.webp\'\)\] {
-  background-image: url('././public/images/1.webp');
-}
-
-.bg-\[url\(\'\.\.\/public\/images\/1\.webp\'\)\] {
-  background-image: url('.././public/images/1.webp');
-}
-
-.bg-\[url\(\'\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('//./public/images/1.webp');
-}
-
-.bg-\[url\(\'\.\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('.//./public/images/1.webp');
-}
-
-.bg-\[url\(\'\.\.\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('..//./public/images/1.webp');
-}
-
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
+.bg-\[url\(\'\/public\/images\/5\.webp\'\)\] {
+  background-image: url('/public/images/5.webp');
 }
 
 .bg-\[url\(\'\/public\/images\/2\.webp\'\)\] {
-  background-image: url('/./public/images/2.webp');
-}
-
-.bg-\[url\(\'\/public\/images\/3\.webp\'\)\] {
-  background-image: url('/./public/images/3.webp');
+  background-image: url('/public/images/2.webp');
 }
 
 .bg-\[url\(\'\/public\/images\/3\.jpg\'\)\] {
-  background-image: url('/./public/images/3.jpg');
+  background-image: url('/public/images/3.jpg');
 }
 
-.bg-\[url\(\'\/public\/images\/5\.webp\'\)\] {
-  background-image: url('/./public/images/5.webp');
+.bg-\[url\(\'\.\/public\/images\/5\.webp\'\)\] {
+  background-image: url('./public/images/5.webp');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-\[url\(\'\.\/public\/images\/2\.webp\'\)\] {
+  background-image: url('./public/images/2.webp');
+}
+
+.bg-\[url\(\'\.\/public\/images\/3\.jpg\'\)\] {
+  background-image: url('./public/images/3.jpg');
 }
 
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-8 {
   padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-2 {
@@ -761,36 +644,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -799,33 +652,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 14px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
-}
-
 .text-\[2rem\] {
   font-size: 2rem;
 }
 
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
 }
 
 .font-bold {
@@ -844,16 +684,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @font-face {
   font-family: NotoSansReg;
 
-  src: url(".././public/NotoSans-Regular.ttf");
+  src: url("../public/NotoSans-Regular.ttf");
 }
 
 * {
   font-family: "NotoSansReg", sans-serif;
-}
-
-.hover\:bg-slate-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-200:hover {
@@ -866,16 +701,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-slate-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
-.focus\:bg-slate-300:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
 .focus\:bg-slate-200:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -886,44 +711,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
-.focus\:bg-slate-50:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
-}
-
 @media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
+  .sm\:p-4 {
+    padding: 1rem;
   }
 
   .sm\:p-24 {
     padding: 6rem;
   }
-
-  .sm\:p-4 {
-    padding: 1rem;
-  }
 }
 
 @media (min-width: 768px) {
-  .md\:w-6\/12 {
-    width: 50%;
-  }
-
-  .md\:w-9\/12 {
-    width: 75%;
-  }
-
-  .md\:w-3\/12 {
-    width: 25%;
-  }
-
-  .md\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .md\:w-7\/12 {
     width: 58.333333%;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
   }
 }
 
@@ -940,20 +744,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
-  .lg\:flex-col {
-    flex-direction: column;
-  }
-
-  .lg\:bg-current {
-    background-color: currentColor;
+  .lg\:bg-contain {
+    background-size: contain;
   }
 
   .lg\:bg-cover {
     background-size: cover;
-  }
-
-  .lg\:bg-contain {
-    background-size: contain;
   }
 
   .lg\:bg-center {
