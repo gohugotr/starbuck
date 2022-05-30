@@ -662,47 +662,47 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-\[url\(\'public\/i\'\)\] {
-  background-image: url('public/i');
+  background-image: url('./public/i');
 }
 
 .bg-\[url\(\'public\/ima\'\)\] {
-  background-image: url('public/ima');
+  background-image: url('./public/ima');
 }
 
 .bg-\[url\(\'public\/image\'\)\] {
-  background-image: url('public/image');
+  background-image: url('./public/image');
 }
 
 .bg-\[url\(\'public\/images\'\)\] {
-  background-image: url('public/images');
+  background-image: url('./public/images');
 }
 
 .bg-\[url\(\'public\/images\/1\.webp\'\)\] {
-  background-image: url('public/images/1.webp');
-}
-
-.bg-\[url\(\'\/public\/images\/1\.webp\'\)\] {
-  background-image: url('/public/images/1.webp');
-}
-
-.bg-\[url\(\'\.\/public\/images\/1\.webp\'\)\] {
   background-image: url('./public/images/1.webp');
 }
 
+.bg-\[url\(\'\/public\/images\/1\.webp\'\)\] {
+  background-image: url('/./public/images/1.webp');
+}
+
+.bg-\[url\(\'\.\/public\/images\/1\.webp\'\)\] {
+  background-image: url('././public/images/1.webp');
+}
+
 .bg-\[url\(\'\.\.\/public\/images\/1\.webp\'\)\] {
-  background-image: url('../public/images/1.webp');
+  background-image: url('.././public/images/1.webp');
 }
 
 .bg-\[url\(\'\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('//public/images/1.webp');
+  background-image: url('//./public/images/1.webp');
 }
 
 .bg-\[url\(\'\.\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('.//public/images/1.webp');
+  background-image: url('.//./public/images/1.webp');
 }
 
 .bg-\[url\(\'\.\.\/\/public\/images\/1\.webp\'\)\] {
-  background-image: url('..//public/images/1.webp');
+  background-image: url('..//./public/images/1.webp');
 }
 
 .bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
@@ -710,19 +710,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-\[url\(\'\/public\/images\/2\.webp\'\)\] {
-  background-image: url('/public/images/2.webp');
+  background-image: url('/./public/images/2.webp');
 }
 
 .bg-\[url\(\'\/public\/images\/3\.webp\'\)\] {
-  background-image: url('/public/images/3.webp');
+  background-image: url('/./public/images/3.webp');
 }
 
 .bg-\[url\(\'\/public\/images\/3\.jpg\'\)\] {
-  background-image: url('/public/images/3.jpg');
+  background-image: url('/./public/images/3.jpg');
 }
 
 .bg-\[url\(\'\/public\/images\/5\.webp\'\)\] {
-  background-image: url('/public/images/5.webp');
+  background-image: url('/./public/images/5.webp');
 }
 
 .bg-cover {
@@ -844,7 +844,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 @font-face {
   font-family: NotoSansReg;
 
-  src: url("../public/NotoSans-Regular.ttf");
+  src: url(".././public/NotoSans-Regular.ttf");
 }
 
 * {
