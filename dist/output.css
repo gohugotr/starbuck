@@ -589,27 +589,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-\[url\(\'\.\/public\/images\/5\.webp\'\)\] {
-  background-image: url('./public/images/5.webp');
+  background-image: url('../public/images/5.webp');
 }
 
 .bg-\[url\(\'\.\/public\/images\/2\.webp\'\)\] {
-  background-image: url('./public/images/2.webp');
+  background-image: url('../public/images/2.webp');
 }
 
 .bg-\[url\(\'\.\/public\/images\/3\.webp\'\)\] {
-  background-image: url('./public/images/3.jpg');
+  background-image: url('../public/images/3.jpg');
 }
 
 .bg-\[url\(\'\.\/public\/images\/5\.webp\'\)\] {
-  background-image: url('./public/images/5.webp');
+  background-image: url('../public/images/5.webp');
 }
 
 .bg-\[url\(\'\.\/public\/images\/2\.webp\'\)\] {
-  background-image: url('./public/images/2.webp');
+  background-image: url('../public/images/2.webp');
 }
 
 .bg-\[url\(\'\.\/public\/images\/3\.jpg\'\)\] {
-  background-image: url('./public/images/3.jpg');
+  background-image: url('../public/images/3.jpg');
 }
 
 .bg-no-repeat {
