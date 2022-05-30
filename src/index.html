@@ -13,12 +13,12 @@
   </head>
   <body>
     <!-- Menü -->
-    <div class="flex justify-between px-2 py-2 items-center">
+    <div class="flex items-center justify-between px-2 py-2 my-4">
       <div>
-        <ul class="capitalize flex flex-row font-bold items-center text-sm">
+        <ul class="flex flex-row items-center text-sm font-bold capitalize">
           <li>
             <svg
-              class="block w-12 mx-4" 
+              class="block w-12 mx-4"
               xmlns="http://www.w3.org/2000/svg"
               width="15%"
               height="100%"
@@ -42,10 +42,99 @@
           <li class="px-2">gift cards</li>
         </ul>
       </div>
-      <div>
-        <ul>
-          <li>Find Store</li>
+      <div class="lg:inline">
+        <!-- hidden -->
+        <ul class="flex items-center text-sm font-bold">
+          <li class="px-2">Find Store</li>
+          <li class="px-2">
+            <span
+              class="px-5 py-1 font-bold text-center border-2 border-black border-solid rounded-full hover:bg-slate-200 focus:bg-slate-200"
+              >Sign in</span
+            >
+          </li>
+          <li class="px-2">
+            <span
+              class="px-5 py-1 font-bold text-center text-white bg-black border-2 border-black rounded-full hover:bg-slate-500 focus:bg-slate-500"
+              >Join now</span
+            >
+          </li>
         </ul>
+      </div>
+    </div>
+    <div class="my-6 border"></div>
+        <!-- HERO  -->
+    <div class="xl:mx-40">
+      <!-- HERO 1 -->
+      <div class="flex flex-col lg:flex-row bg-starGreen">
+        <div class="relative flex-none md:w-7/12">
+          <div
+            class="absolute bg-[url('/public/images/5.webp')] max-w-full lg:bg-contain bg-no-repeat lg:bg-center w-full h-full"
+          ></div>
+        </div>
+        <img src="/public/images/5.webp" alt="Sağ resim" class="lg:hidden" />
+        <div>
+          <div class="p-8 mx-6 text-center sm:p-4">
+            <h3 class="font-bold text-center text-[2rem]">
+              We’re giving away 4 cars in 4 weeks*
+            </h3>
+            <p class="my-4 text-[1.2rem]">
+              Starbucks® Summer Game is back—don’t miss the chance to win gift cards, Stars and a
+              new Volvo XC40 Recharge.
+            </p>
+            <button
+              class="px-5 py-1 mt-2 font-bold text-center border-2 border-black border-solid rounded-full hover:bg-slate-200 focus:bg-slate-200"
+            >
+              Let'play
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- HERO 2 -->
+      <div class="flex flex-col mt-8 lg:flex-row bg-starGreen">
+        <div>
+          <div class="p-10 mx-12 text-center sm:p-24">
+            <h3 class="font-bold text-center text-[2.5rem]">Make a splash</h3>
+            <p class="my-4 text-[1.5rem]">
+              Dive into the vibrant flavors of the Mango Dragonfruit and Strawberry Açaí Starbucks
+              Refreshers® beverages, both with bright lemonade.
+            </p>
+            <button
+              class="px-5 py-1 mt-2 font-bold text-center border-2 border-black border-solid rounded-full hover:bg-slate-200 focus:bg-slate-200"
+            >
+              Order now
+            </button>
+          </div>
+        </div>
+        <div class="relative flex-none md:w-6/12">
+          <div
+            class="absolute bg-[url('/public/images/2.webp')] lg:bg-cover lg:bg-center w-full h-full"
+          ></div>
+        </div>
+        <img src="/public/images/2.webp" alt="Sağ resim" class="lg:hidden" />
+      </div>
+            <!-- HERO 3 -->
+      <div class="flex flex-col mt-8 lg:flex-row bg-starGreen">
+        <div class="relative flex-none md:w-6/12">
+          <div
+            class="absolute bg-[url('/public/images/3.jpg')] lg:bg-cover lg:bg-center w-full h-full"
+          ></div>
+        </div>
+        <img src="/public/images/3.jpg" alt="Sağ resim" class="lg:hidden" />
+        <div>
+          <div class="p-10 mx-12 text-center sm:p-24">
+            <h3 class="font-bold text-center text-[2.5rem]">
+              Chase happy things
+            </h3>
+            <p class="my-4 text-[1.5rem]">
+             Our Caramel Ribbon Crunch and Mocha Cookie Crumble Frappuccino® blended beverages are made for summer fun.
+            </p>
+            <button
+              class="px-5 py-1 mt-2 font-bold text-center border-2 border-black border-solid rounded-full hover:bg-slate-200 focus:bg-slate-200"
+            >
+              Let'play
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
